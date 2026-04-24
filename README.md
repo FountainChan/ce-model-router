@@ -1,12 +1,12 @@
 # 🚀 OpenCode CE 模型自动路由配置
 
-> 📌 **轻松实现多模型智能路由，让不同的 `/ce:*` 命令自动使用最合适的 AI 模型！**
+> 📌 **轻松实现多模型智能路由，让不同的 `/ce-*` 命令自动使用最合适的 AI 模型！**
 
 ## 📖 项目简介
 
 本项目提供了一套完整的 **OpenCode 模型自动路由方案**，实现了：
 
-- 🎯 **命令级路由** — 不同 `/ce:*` 命令使用不同基础模型
+- 🎯 **命令级路由** — 不同 `/ce-*` 命令使用不同基础模型
 - ⚡ **自动降级** — API 错误时自动切换到备选模型（Fallback Chain）
 - 💡 **轻量实现** — 无需重型插件，保留现有 compound-engineering 配置
 
@@ -14,11 +14,11 @@
 
 | 命令 | 基础模型 | 用途说明 |
 |------|---------|---------|
-| `/ce:brainstorm` | MiniMax 2.7 | 头脑风暴、需求探索 |
-| `/ce:ideate` | MiniMax 2.7 | 创意发散、想法生成 |
-| `/ce:plan` | GLM-5.1 | 技术规划、方案设计 |
-| `/ce:work` | GLM-5.1 | 代码实现、功能开发 |
-| `/ce:review` | MiniMax 2.7 | 代码审查、质量把控 |
+| `/ce-brainstorm` | MiniMax 2.7 | 头脑风暴、需求探索 |
+| `/ce-ideate` | MiniMax 2.7 | 创意发散、想法生成 |
+| `/ce-plan` | GLM-5.1 | 技术规划、方案设计 |
+| `/ce-work` | GLM-5.1 | 代码实现、功能开发 |
+| `/ce-review` | MiniMax 2.7 | 代码审查、质量把控 |
 
 ## 📁 项目结构
 
@@ -27,11 +27,11 @@ ce-model-router/
 ├── README.md                    # 📚 项目说明文档
 ├── LICENSE                      # 📄 MIT 开源许可证
 ├── commands/                    # 💬 OpenCode 命令文件
-│   ├── ce-brainstorm.md         # /ce:brainstorm 命令配置
-│   ├── ce-ideate.md             # /ce:ideate 命令配置
-│   ├── ce-plan.md               # /ce:plan 命令配置
-│   ├── ce-work.md               # /ce:work 命令配置
-│   └── ce-review.md             # /ce:review 命令配置
+│   ├── ce-brainstorm.md         # /ce-brainstorm 命令配置
+│   ├── ce-ideate.md             # /ce-ideate 命令配置
+│   ├── ce-plan.md               # /ce-plan 命令配置
+│   ├── ce-work.md               # /ce-work 命令配置
+│   └── ce-review.md             # /ce-review 命令配置
 ├── config/                      # ⚙️ 配置文件
 │   └── opencode.json            # OpenCode 主配置文件（含 Fallback 链）
 └── docs/                        # 📋 项目文档
