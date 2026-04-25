@@ -24,6 +24,18 @@
 
 > 💡 **设计理念**：轻量任务（头脑风暴、创意发散、代码审查）使用轻量模型以节省成本；核心任务（规划、实现）使用主力模型以确保质量。
 
+**作者实际配置示例**：
+
+| 命令 | 实际模型 | Provider |
+|------|---------|----------|
+| `/ce-brainstorm` | MiniMax-M2.7 | `minimax-cn-coding-plan/MiniMax-M2.7` |
+| `/ce-ideate` | MiniMax-M2.7 | `minimax-cn-coding-plan/MiniMax-M2.7` |
+| `/ce-plan` | GLM-5.1 | `zhipuai-coding-plan/glm-5.1` |
+| `/ce-work` | GLM-5.1 | `zhipuai-coding-plan/glm-5.1` |
+| `/ce-review` | MiniMax-M2.7 | `minimax-cn-coding-plan/MiniMax-M2.7` |
+
+> 🎯 选择理由：MiniMax-M2.7 响应快、成本低，适合头脑风暴和代码审查等发散性任务；GLM-5.1 推理能力强，适合规划和实现等需要深度思考的任务。
+
 ## 📁 项目结构
 
 ```

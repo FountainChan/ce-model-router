@@ -24,6 +24,18 @@ This project provides a complete **OpenCode model auto-routing solution** that d
 
 > 💡 **Design philosophy**: Lightweight tasks (brainstorming, ideation, review) use cost-effective models; core tasks (planning, implementation) use powerful models for quality.
 
+**Author's actual configuration**:
+
+| Command | Actual Model | Provider |
+|---------|-------------|----------|
+| `/ce-brainstorm` | MiniMax-M2.7 | `minimax-cn-coding-plan/MiniMax-M2.7` |
+| `/ce-ideate` | MiniMax-M2.7 | `minimax-cn-coding-plan/MiniMax-M2.7` |
+| `/ce-plan` | GLM-5.1 | `zhipuai-coding-plan/glm-5.1` |
+| `/ce-work` | GLM-5.1 | `zhipuai-coding-plan/glm-5.1` |
+| `/ce-review` | MiniMax-M2.7 | `minimax-cn-coding-plan/MiniMax-M2.7` |
+
+> 🎯 Rationale: MiniMax-M2.7 is fast and cost-effective, ideal for generative tasks like brainstorming and code review; GLM-5.1 has strong reasoning capabilities, ideal for tasks requiring deep thinking like planning and implementation.
+
 ## 📁 Project Structure
 
 ```
