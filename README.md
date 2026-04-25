@@ -1,3 +1,5 @@
+[English](README_en.md) | 简体中文
+
 # 🚀 OpenCode CE 模型自动路由配置
 
 > 📌 **轻松实现多模型智能路由，让不同的 `/ce-*` 命令自动使用最合适的 AI 模型！**
@@ -47,8 +49,11 @@ ce-model-router/
 ### 📋 前置条件
 
 - ✅ 已安装 [OpenCode](https://opencode.ai/)
+- ✅ 已安装 [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)（CE skill 体系）
 - ✅ 已安装 Node.js 和 npm
 - ✅ 至少有一个可用的 AI 模型 API Key
+
+> ⚠️ **前提**：本项目依赖 compound-engineering-plugin 提供的 `ce:brainstorm`、`ce:plan`、`ce:work`、`ce:review` 等 skill。请先按照 [compound-engineering-plugin 文档](https://github.com/EveryInc/compound-engineering-plugin) 安装配置。
 
 ### Step 1：连接模型
 
@@ -327,7 +332,7 @@ model: YOUR_MODEL_ID
 
 - [OpenCode](https://opencode.ai/) — AI 编程助手
 - [opencode-runtime-fallback](https://www.npmjs.com/package/opencode-runtime-fallback) — Fallback 插件
-- [compound-engineering](https://github.com/nichochar/compound-engineering) — CE skill 体系
+- [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) — CE skill 体系
 - 所有开源模型的提供者
 
 ---
