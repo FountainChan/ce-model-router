@@ -19,7 +19,7 @@
 |------|---------|----------------------|
 | 快速/轻量任务 | MiniMax 2.7 | `minimax-cn-coding-plan/MiniMax-M2.7` |
 | 主力模型 | GLM-5.1 | `zhipuai-coding-plan/glm-5.1` |
-| 深度推理 | DeepSeek-V4-Pro | `deepseek/deepseek-v4-pro` |
+| 深度推理 | DeepSeek-V4-Pro | `opencode-go/deepseek-v4-pro` |
 | 高强度任务 | Claude Opus 4.7 | `yunwu-claude/claude-opus-4-7` |
 | 代码生成 | GPT-5.4 | `yunwu-gpt/gpt-5.4` |
 
@@ -67,6 +67,6 @@
 
 - MiniMax 2.7 已有配置：`minimax-cn-coding-plan/MiniMax-M2.7`
 - GLM-5.1 已配置：`zhipuai-coding-plan/glm-5.1`
-- DeepSeek-V4-Pro：`deepseek/deepseek-v4-pro`（需确认 provider 配置）
+- DeepSeek-V4-Pro：`opencode-go/deepseek-v4-pro`（需确认 provider 配置）
 - Claude Opus 4.7 已配置：`yunwu-claude/claude-opus-4-7`
 - GPT-5.4 已配置：`yunwu-gpt/gpt-5.4`

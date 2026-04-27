@@ -55,7 +55,7 @@ npm install opencode-runtime-fallback
       "timeoutMs": 60000,
       "chains": [
         ["minimax-cn-coding-plan/MiniMax-M2.7", "zhipuai-coding-plan/glm-5.1"],
-        ["zhipuai-coding-plan/glm-5.1", "deepseek/deepseek-v4-pro", "yunwu-claude/claude-opus-4-7"],
+        ["zhipuai-coding-plan/glm-5.1", "opencode-go/deepseek-v4-pro", "yunwu-claude/claude-opus-4-7"],
         ["yunwu-claude/claude-opus-4-7", "yunwu-gpt/gpt-5.4"]
       ]
     }
